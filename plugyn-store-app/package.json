@@ -1,6 +1,5 @@
 {
-  "name": "plugyn-store-app",
-  "homepage": "https://davidpetrea.github.io",
+  "name": "btest",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -1,15 +1,192 @@
-/* plugyn color: 191826 */
+/* GENERAL */
 
 body{
+  text-align:center;
   margin:0px;
-  padding:0;
-  background-color:#fff;
-}
-
-.container{
-  width:100%;
-  margin:auto;
-  overflow:hidden;
 }
 
 
+
+/* HEADER */
+
+.my-header{
+  background-color:#191826;
+  border-bottom:2px solid #e6ce7d;
+  
+  
+}
+
+.menu{
+  width:55px;
+  margin-top:35px;
+  margin-right:-45px;
+}
+
+
+.gamelist-text{
+  font-size:24px;
+  color:#e6ce7d;
+  margin-top:8px;
+  margin-bottom:5px;
+  
+}
+
+.gamelist-arrow{
+  width:40px;
+}
+
+.loginBox{
+  margin-top:33px;
+  
+}
+
+.login-button{
+  margin-right:10px;
+  color:#e6ce7d;
+  background-color:#191826;
+  border:1px solid #e6ce7d;
+  font-weight: bold;
+}
+.login-button:hover{
+  background-color:#e6ce7d;
+  color:#191826;
+  
+}
+
+.or-span{
+  font-size:18px;
+  color:#e6ce7d;
+}
+
+.signup-button{
+  margin-left:10px;
+  color:#e6ce7d;
+  background-color:#191826;
+  border:1px solid #e6ce7d;
+  font-weight: bold;
+}
+
+.signup-button:hover{
+  background-color:#e6ce7d;
+  color:#191826;
+  
+}
+
+/* NAVBAR */
+
+.my-navbar{
+  background-color: black;
+  border-bottom:1px solid #e6ce7d;
+  font-size:18px;
+  color:white;
+  
+}
+.my-navbar a{
+  text-decoration: none;
+  color:white;
+} 
+.my-navbar .col-md-2:hover{
+  background-image:linear-gradient(to right,#e6ce7d,#cca843);
+  border-left:1px solid white;
+  border-right:1px solid white;
+  padding-right:0px;
+  padding-left:0px;
+  
+} 
+
+
+/* SHOWCASE */
+
+.col-12{
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.showcase-container{
+  background-image: url(./Images/showcase.png);
+  background-position: bottom;
+  
+  background-size: cover;
+  border-bottom:2px solid #e6ce7d;
+}
+
+.showcase-big-text{
+  margin-top:30px;
+  font-size:25px;
+  color:white;
+}
+.showcase-small-text{
+  margin-top:20px;
+  margin-bottom:70px;
+  margin-right:10px;
+  margin-left:10px;
+  font-size:18px;
+  color:white;
+}
+
+
+
+/* MEDIA QUERIES */
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+
+  .gamelist,
+  .loginBox,
+  .my-navbar{
+    display:none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media only screen and (min-width: 576px) {
+
+    .gamelist,
+    .loginBox,
+    .my-navbar{
+      display:none;
+    }
+
+    .container{
+      max-width: 100%;
+      
+    }
+
+    
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .gamelist,
+    .loginBox,
+    .my-navbar{
+      display:inline-block;
+    }
+
+    .menu{
+      display:none;
+    }
+
+    .showcase-big-text{
+      font-size:33px;
+      margin-top:65px;
+      margin-bottom:65px;
+    }
+
+    .showcase-small-text{
+      font-size:26px;
+      
+      margin-bottom:200px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  
+}
